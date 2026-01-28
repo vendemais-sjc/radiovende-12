@@ -1793,7 +1793,7 @@
 
         function updateProgress() {
             if (musicPlayer.duration && !isAdPlaying) {
-                const progressPercent = (musicPlayer.currentTime / musicPlayer.duration) * 100;
+                const progressPercent = (musicPlayer.currentTime / musicPlayer.duration) * 70;
                 progress.style.width = `${progressPercent}%`;
                 
                 currentTimeEl.textContent = formatTime(musicPlayer.currentTime);
@@ -2085,6 +2085,7 @@
 </body>
 
 </html>
+
 
 
 
